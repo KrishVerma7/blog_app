@@ -1,3 +1,64 @@
+# 📝 BlogIT - A Simple Blog App
+
+A minimal blog application built using **Next.js + React** with local storage for persistence. Create, view, search, and delete blog posts with a clean and modern blue-gold themed UI.
+
+---
+
+## 🚀 Features
+
+- ✅ **Home Page**
+  - Lists all blog posts (from localStorage or mock data)
+  - Search functionality to filter posts by title
+  - Card layout with title, short description, and "Read More" link
+
+- ✅ **Blog Details Page**
+  - View full content of a selected post
+  - Dynamic route using `/blog/[id]`
+  - Styled with a responsive, elegant UI
+
+- ✅ **Create Post Page**
+  - Form with Title, Description, and Content inputs
+  - Stores data in localStorage (no backend)
+  - Redirects to homepage after submission
+
+- ✅ **Feedback Form**
+  - Simple form for collecting user feedback
+  - Headings instead of placeholders
+  - Redirects to home after submit
+
+- ✅ **Navigation**
+  - Header with links to Home, Create Post, Feedback
+  - Consistent design using blue and golden palette
+
+- ✅ **Delete Functionality**
+  - Posts can be deleted
+  - Auto-updates UI and localStorage
+
+- ✅ **Responsive Design**
+  - Mobile-friendly layout
+  - Grid adjusts automatically for screen sizes
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/) (optional)
+- Local Storage
+- CSS (via `global.css` and modules) and Bootstrap
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/blogit.git
+cd blogit
+npm install
+npm run dev
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
